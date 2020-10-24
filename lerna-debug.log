@@ -1,0 +1,6 @@
+0 silly argv { _: [ 'bootstrap' ], lernaVersion: '3.21.0', '$0': 'lerna' }
+1 notice cli v3.21.0
+2 verbose rootPath /home/william/programming/fullstack-template
+3 error JSONError: Unexpected token e in JSON at position 0 while parsing near 'e  "name": "@app/we...' in packages/web/package.json
+3 error     at module.exports (/home/william/programming/fullstack-template/node_modules/@lerna/project/node_modules/parse-json/index.js:26:19)
+3 error     at parse (/home/william/programming/fullstack-template/node_modules/@lerna/project/node_modules/load-json-file/index.js:15:9)

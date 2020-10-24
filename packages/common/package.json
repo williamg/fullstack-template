@@ -1,0 +1,26 @@
+{
+  "name": "@app/common",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "lib"
+  ],
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsconfig-paths": "^3.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "ts-loader": "^6.2.1",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "typescript": "^3.8.3"
+  }
+}
